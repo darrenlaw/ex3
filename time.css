@@ -38,6 +38,7 @@ section#events {
     font-family: arial;
     text-align: center;
     background-color: gray;
+    position:relative;
 }
 
 .school.button {
@@ -157,4 +158,11 @@ footer a:visited {
 
 footer a:hover {
     color:#b3b3b3;
+}
+
+.tip {
+    position:absolute;
+    margin-top:5px;
+    margin-left:310px;
+    text-align: right;
 }

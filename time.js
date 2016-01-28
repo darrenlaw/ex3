@@ -11,37 +11,47 @@ $(document).ready(function () {
         //hide all h4 headers
         $('h4').hide();
     
+        $('.tip').hide();
+    
         //hover buttons
         $('.school').hover(function () {
             $('.school').css('background', '#dfc7c7');
             $('.school-list').css('font-weight', 'bold');
+            $('#schooltip').show();
         }, function () {
             $('.school').css('background', '#b69b9b');
             $('.school-list').css('font-weight', 'normal');
+            $('#schooltip').hide();
         });
 
         $('.art').hover(function () {
             $('.art').css('background', '#c9e3c3');
             $('.art-list').css('font-weight', 'bold');
+            $('#arttip').show();
         }, function () {
             $('.art').css('background', '#a0b69b');
             $('.art-list').css('font-weight', 'normal');
+            $('#arttip').hide();
         });
 
         $('.survive').hover(function () {
             $('.survive').css('background', '#c9c4e4');
             $('.survive-list').css('font-weight', 'bold');
+            $('#survivetip').show();
         }, function () {
             $('.survive').css('background', '#9f9bb6');
             $('.survive-list').css('font-weight', 'normal');
+            $('#survivetip').hide();
         });
 
         $('.procrast').hover(function () {
             $('.procrast').css('background', '#e3c8e9');
             $('.procrast-list').css('font-weight', 'bold');
+            $('#procrasttip').show();
         }, function () {
             $('.procrast').css('background', '#b19bb6');
             $('.procrast-list').css('font-weight', 'normal');
+            $('#procrasttip').hide();
         });
 
         //selecting each category to click and hide events
