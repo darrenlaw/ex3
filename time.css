@@ -1,0 +1,162 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    position: relative;
+    margin: auto;
+    width: 1300px;
+}
+
+section#categories {
+    margin-left: 50%;
+    width: 650px;
+    height: 500px;
+    position: absolute;
+}
+
+section#events {
+    margin-left: 140px;
+}
+
+#categories ul {
+    list-style-type: none;
+    margin-top: 40px;
+    position: absolute;
+}
+
+#categories li {
+    display: inline;
+}
+
+.button {
+    padding: 20px;
+    border-radius: 5px;
+    font-family: arial;
+    text-align: center;
+    background-color: gray;
+}
+
+.school.button {
+    background: #b69b9b;
+}
+
+.art.button {
+    background: #a0b69b;
+}
+
+.survive.button {
+    background: #9f9bb6;
+}
+
+.procrast.button {
+    background: #b19bb6;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #eaeaea;
+}
+
+a:active {
+    color: #eaeaea;
+}
+
+section#events li {
+    width: 600px;
+    margin-bottom: 2px;
+}
+
+#events ul {
+    margin-top: 250px;
+    position: absolute;
+    margin-left:500px;
+}
+
+#events li {
+    font-family: arial;
+    list-style-type: none;
+}
+
+.art-list {
+    color: #6c9c61;
+}
+
+.school-list {
+    color: #a37676;
+}
+
+.survive-list {
+    color: #5c5799;
+}
+
+.procrast-list {
+    color: #a457b5;
+}
+
+.hide {
+    visibility: hidden;
+    display: none;
+}
+
+section#dots {
+    width: 1180px;
+    position: relative;
+    margin: auto;
+    top: 155px;
+}
+
+section#dots li {
+    list-style-type: none;
+    display: inline;
+}
+
+div {
+    position: absolute;
+    margin-top:100px;
+    margin-left: 105px;
+    color:#4d4d4d;
+}
+
+div h2 {
+    font-family: arial;
+    font-size: 60px;
+}
+
+h3 {
+    font-family: arial;
+    font-size:30px;
+    width:300px;
+    margin-top:20px;
+}
+
+footer {
+    font-family: arial;
+    position:fixed;
+    top:95%;
+    left:75%;
+    
+}
+
+footer a:link {
+    color:#737373;
+}
+
+footer a:visited {
+    color:#737373;
+}
+
+footer a:hover {
+    color:#b3b3b3;
+}
